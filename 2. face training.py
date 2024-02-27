@@ -28,7 +28,7 @@ def getImagesAndLabels(path):
 
         for (x,y,w,h) in faces:
             faceSamples.append(img_numpy[y:y+h,x:x+w])
-            ids.apped(id)
+            ids.append(id)
 
     return faceSamples,ids
 
